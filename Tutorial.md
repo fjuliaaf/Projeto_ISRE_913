@@ -6,7 +6,7 @@
 
 &nbsp;
 
-1. Com os terminais abertos, entre com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```.
+1. Com os terminais abertos, entre com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```).
 
 &nbsp;
 
