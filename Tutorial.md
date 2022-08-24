@@ -69,11 +69,11 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-- PARTE III - Ambiente de uma rede ponto a ponto física (2 PCs e 4 VMs)
+- PARTE III - Ambiente de uma rede ponto a ponto física 
 
 &nbsp;
 
-1. Certifique-se de que os endereços IPs estão configurados corretamente e que os endereços MAC são diferentes, caso não sejam, atribua-o um endereço aleatório através das configurações de cada máquina (lembre-se de desligá-las).
+1. Certifique-se de que os endereços IPs estão configurados corretamente e que os endereços MAC são diferentes, caso não sejam, atribua à maquina um endereço aleatório através das configurações de cada máquina (lembre-se de desligá-las).
 
 &nbsp;
 
