@@ -153,4 +153,20 @@ sudo ufw enable
 
 &nbsp;
 
+- PARTE VII - Conectando os computadores através de um switch
+
+&nbsp;
+
+1. 
+
+&nbsp;
+
+### Configuração de Hardware das VMs
+
+&nbsp;
+
+- Sistema Operacional: Ubuntu;
+- Processadores: 1;
+- Memória RAM: 512 MB;
+
 #### Após todos os passos terem sido realizados, e se validados, a sua rede de computadores está pronta.
