@@ -173,5 +173,6 @@ sudo ufw enable
 
 [Tutorial com imagens das etapas](https://docs.google.com/document/d/1TM0-MaSALltTjzLK44p3Tm8edg08KEIeAwbOhXyEcOs/edit)
 
+&nbsp;
 
 #### Após todos os passos terem sido realizados, e se validados, a sua rede de computadores está pronta.
