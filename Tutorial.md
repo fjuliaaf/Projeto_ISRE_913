@@ -163,10 +163,11 @@ sudo ufw enable
 
 ### Configuração de Hardware das VMs
 
-&nbsp;
-
 - Sistema Operacional: Ubuntu;
 - Processadores: 1;
 - Memória RAM: 512 MB;
+
+&nbsp;
+
 
 #### Após todos os passos terem sido realizados, e se validados, a sua rede de computadores está pronta.
