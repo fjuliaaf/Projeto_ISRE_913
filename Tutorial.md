@@ -6,16 +6,16 @@
 
 &nbsp;
 
-1. Com os terminais abertos, entre com usuários predefinidos, a partir do comando ```su nome_usuario```.
+1. Com os terminais abertos, entre com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```.
 
 &nbsp;
 
 2. Crie no root uma pasta com um nome destinado a sua rede de computadores e, dentro deste diretório, crie outras pastas com um nível hierárquico, a fim de armazenar organizadamente todos os dados necessários (A quantidade de hierarquizações é facultativa). Esses procedimentos devem ser feitos através dos comandos abaixo:
 
 ```
-Sudo mkdir /pasta1
-cd /pasta1
-sudo mkdir /pasta2
+Sudo mkdir /pasta1     <!-- Cria a pasta "pasta1" -->
+cd /pasta1             <!-- Entra na pasta criada "pasta1" -->
+sudo mkdir /pasta2     <!-- Cria a "pasta2" dentro da "pasta1" e assim sucessivamente -->
 cd /pasta2
 sudo mkdir /pasta3
 cd /
@@ -37,7 +37,7 @@ Sudo chmod –R 771 /pasta1
 &nbsp;
 
 4. Logo após, entre no diretório que criou /pasta1/pasta2/pasta3 e aloque o arquivo ubuntu-server-mini.ova (exportação de máquinas virtuais).
-Como em nossa exemplificação já tínhamos este arquivo, mas presente em outros diretórios, apenas copiamos e transferimos ele para os diretórios que estávamos utilizando, através do comando: ```sudo cp diretorio_arquivo diretorio_localCopia```.
+Como em nossa exemplificação já tínhamos este arquivo, mas presente em outros diretórios, apenas copiamos e transferimos ele para os diretórios que estávamos utilizando, através do comando: ```sudo cp diretorio_arquivo diretorio_localCopiar```.
 
 &nbsp;
 
@@ -65,7 +65,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-5. Por fim, teste a conexão entre as suas VMs criadas com o comando “ping” e o endereço IP da máquina que se deseja fazer a conexão. Caso algum erro ocorra, verifique a efetivação dos passos anteriores, tais como definição estática de endereços, ativação/desativação do dhcp4, os endereços MACs que precisam ser únicos, entre outros.
+5. Por fim, teste a conexão entre as suas VMs criadas com o comando “ping” e o endereço IP da máquina que se deseja fazer a conexão. Caso algum erro ocorra, verifique a efetivação dos passos anteriores, tais como definição estática de endereços, desativação do dhcp4, os endereços MACs que precisam ser únicos, entre outros.
 
 &nbsp;
 
@@ -73,7 +73,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-1. Certifique-se de que os endereços IPs estão configurados corretamente e que os endereços MAC são diferentes, caso não sejam, atribua às maquinas endereços aleatórios através das configurações de cada máquina (lembre-se de desligá-las).
+1. Certifique-se de que os endereços IPs estão configurados corretamente e que os endereços MAC são diferentes, caso não sejam, atribua às maquinas endereços MACs aleatórios através das configurações de cada máquina (lembre-se de desligá-las).
 
 &nbsp;
 
@@ -97,7 +97,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-3. Comente o endereço IP estático e ative o dhcp, usando o comando ```sudo nano /etc/netplan/01-netcfg.yaml``` e lembre-se de aplicar as alterações com ```sudo netplan apply```.
+3. Comente o endereço IP estático e o gateway e ative o dhcp, usando o comando ```sudo nano /etc/netplan/01-netcfg.yaml``` e lembre-se de aplicar as alterações com ```sudo netplan apply```.
 
 &nbsp;
 
@@ -123,7 +123,7 @@ sudo ufw enable
 
 &nbsp;
 
-8. Confirmação dos passos feitos anteriormente. Para conectar sua máquina com outra remotamente digite o comando ```ssh user@ip_remoto``` usando o ip da máquina que deseja se conectar e o user que está sendo usado.
+8. Confirmação dos passos feitos anteriormente: Para conectar sua máquina com outras remotamente digite o comando ```ssh user@ip_remoto``` usando o ip das máquinas que deseja realizar a conexão e o user que está sendo usado.
 
 &nbsp;
 
@@ -131,7 +131,7 @@ sudo ufw enable
 
 &nbsp;
 
-1. Adicione em uma de suas máquinas virtuais um novo adaptador. Primeiro clique em Arquivo e depois em Host Network Manager, em seguida adicione um novo adaptador em modo Host-only.
+1. Adicione em uma de suas máquinas virtuais um novo adaptador. Para isso, primeiro clique em Arquivo e depois em Host Network Manager, em seguida adicione um novo adaptador em modo Host-only.
 
 &nbsp;
 
