@@ -1,4 +1,4 @@
-# Tutorial de Como criar um ambiente de rede com máquinas virtuais
+# Tutorial de como criar um ambiente de rede com máquinas virtuais
 
 #### O seguinte tutorial é dividido em 7 partes, a fim de que seja possível detalhar de maneira pontual as etapas necessárias para construir um ambiente de rede com 8 máquinas virtuais.
 &nbsp;
