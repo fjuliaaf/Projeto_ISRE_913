@@ -13,9 +13,9 @@
 2. Crie no root uma pasta com um nome destinado a sua rede de computadores e, dentro deste diretório, crie outras pastas com um nível hierárquico, a fim de armazenar organizadamente todos os dados necessários (A quantidade de hierarquizações é facultativa). Esses procedimentos devem ser feitos através dos comandos abaixo:
 
 ```
-Sudo mkdir /pasta1     > Cria a pasta "pasta1" 
-cd /pasta1             > Entra na pasta criada "pasta1" 
-sudo mkdir /pasta2     > Cria a "pasta2" dentro da "pasta1" e assim sucessivamente 
+Sudo mkdir /pasta1    
+cd /pasta1             
+sudo mkdir /pasta2     
 cd /pasta2
 sudo mkdir /pasta3
 cd /
