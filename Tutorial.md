@@ -73,7 +73,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-1. Certifique-se de que os endereços IPs estão configurados corretamente e que os endereços MAC são diferentes, caso não sejam, atribua à maquina um endereço aleatório através das configurações de cada máquina (lembre-se de desligá-las).
+1. Certifique-se de que os endereços IPs estão configurados corretamente e que os endereços MAC são diferentes, caso não sejam, atribua às maquinas endereços aleatórios através das configurações de cada máquina (lembre-se de desligá-las).
 
 &nbsp;
 
@@ -81,7 +81,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-3. Pingue os endereços para testar a conectividade entre esses dois PCs.
+3. Pingue os endereços para testar a conectividade entre esses PCs.
 
 &nbsp;
 
