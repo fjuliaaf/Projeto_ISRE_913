@@ -169,5 +169,9 @@ sudo ufw enable
 
 &nbsp;
 
+### Link do tutorial com as imagens de cada etapa, incluindo testes de ping e ssh
+
+[Tutorial com imagens das etapas](https://docs.google.com/document/d/1TM0-MaSALltTjzLK44p3Tm8edg08KEIeAwbOhXyEcOs/edit)
+
 
 #### Após todos os passos terem sido realizados, e se validados, a sua rede de computadores está pronta.
