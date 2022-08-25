@@ -2,6 +2,29 @@
 
 #### O seguinte tutorial é dividido em 7 partes, a fim de que seja possível detalhar de maneira pontual as etapas necessárias para construir um ambiente de rede com 8 máquinas virtuais.
 &nbsp;
+
+### Configuração de Hardware das VMs, Softwares e Instrumentos
+
+- Sistema Operacional: Ubuntu;
+- Processadores: 1;
+- Memória RAM: 512 MB;
+&nbsp;
+- VirtualBox;
+&nbsp;
+- Switch;
+- 04 cabos de par trançado.
+
+&nbsp;
+
+### Denominações
+
+- Os endereços IPs das nossas máquinas virtuais foram 193.168.13.65, 193.168.13.66, 193.168.13.67, 193.168.13.68, 193.168.13.69, 193.168.13.70, 193.168.13.71, 193.168.13.72;
+- Criamos 04 usuários em cada máquina virtual com os nomes "julia", "eduarda", "antony", "beatriz" ou "jfo", "agmm", "bss" e "mebl".
+
+> Outras denominações podem ser visualizadas através da tabela, acessando-a com o comando ```sudo nano /etc/hosts```.
+
+&nbsp;
+
 ### PARTE I - Configuração para instalação das máquinas virtuais
 
 &nbsp;
@@ -186,16 +209,8 @@ sudo ufw enable
 
 &nbsp;
 
-1. 
+1. Nesta etapa, conectamos por fim todos os computadores através dos switchs e dos cabos de par trançado, testando logo em seguida os pings e ssh de uma das máquinas para as outras e usando os usuários que criamos.
 
 &nbsp;
 
-### Configuração de Hardware das VMs
-
-- Sistema Operacional: Ubuntu;
-- Processadores: 1;
-- Memória RAM: 512 MB;
-
-&nbsp;
-
-#### Após todos os passos terem sido realizados, e se validados, a sua rede de computadores está pronta.
+#### Após todos os passos terem sido realizados, e se validados, a nossa rede de computadores estava pronta.
