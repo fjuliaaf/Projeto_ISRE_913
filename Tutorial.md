@@ -32,7 +32,9 @@
 
 &nbsp;
 
-1. Com os terminais abertos, entramos com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```). Este comando permite que possamos mudar de usuário.
+1. Com os terminais abertos, entramos com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```). 
+
+* O comando "su" permite que possamos mudar de usuário.
 
 &nbsp;
 
