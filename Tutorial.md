@@ -54,8 +54,7 @@ sudo mkdir pasta1/pasta4/pasta5
 sudo mkdir pasta1/pasta4/pasta5/pasta6
 ```
 
-![redes2](https://user-images.githubusercontent.com/103438145/186778062-ebd6d7e9-8227-42fb-9cce-75a669d9af45.png)
-
+![redes3](https://user-images.githubusercontent.com/103438145/186778076-abf96678-ac26-4c18-9ff9-ff7a1a9d4929.png)
 
 * O "sudo" é usado para que possamos efetivar comandos como se fosse o superusuário ou outro usuário.
 * O "mkdir" é usado para criar diretórios.
@@ -70,8 +69,11 @@ Sudo chown –R nobody:nome_usuario /pasta1
 Sudo chgrp –R nome_usuario /pasta1
 Sudo chmod –R 771 /pasta1
 ```
+![redes4](https://user-images.githubusercontent.com/103438145/186778091-db28a867-63d0-4a31-91a5-aeee601a2a8f.png)
 
-![redes3](https://user-images.githubusercontent.com/103438145/186778076-abf96678-ac26-4c18-9ff9-ff7a1a9d4929.png)
+&nbsp;
+
+![redes7](https://user-images.githubusercontent.com/103438145/186778128-e9e36367-c825-40e5-8b66-5df4228c4e56.png)
 
 * O comando "chown" permite que possamos alterar o nome do dono de um arquivo.
 * O "chgrp" permite que mudemos o nome de um arquivo.
@@ -81,8 +83,6 @@ Sudo chmod –R 771 /pasta1
 
 4. Logo após, entre no diretório que criou /pasta1/pasta2/pasta3 e aloque o arquivo ubuntu-server-mini.ova (exportação de máquinas virtuais).
 Como em nossa exemplificação já tínhamos este arquivo, mas presente em outros diretórios, apenas copiamos e transferimos ele para os diretórios que estávamos utilizando, através do comando: ```sudo cp diretorio_arquivo diretorio_localCopiar```.
-
-![redes4](https://user-images.githubusercontent.com/103438145/186778091-db28a867-63d0-4a31-91a5-aeee601a2a8f.png)
 
 * O comando "cp" faz cópia de arquivos.
 
@@ -111,8 +111,6 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 &nbsp;
 
 3. Reinicializamos as Vms e configuramos estaticamente o endereço IP. Para isso, instalamos as ferramentas de rede necessárias com o comando ```sudo apt installnet-tools -y```, posteriormente rodamos o comando: ```sudo nano /etc/netplan/01-netcfg.yaml```, desativando o dhcp4 e definindo os endereços IP e do gateway4. Preste atenção com a indentação do texto e, após a finalização das configurações, aplique as alterações com o comando ```sudo netplan apply```.
-
-![redes7](https://user-images.githubusercontent.com/103438145/186778128-e9e36367-c825-40e5-8b66-5df4228c4e56.png)
 
 * Esse último comando tem por função aplicar os arquivos de configuração.
 
@@ -144,13 +142,12 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 2. Em seguida, configuramos as NICs como modo bridge através das configurações das VMs.
 
-![redes11](https://user-images.githubusercontent.com/103438145/186778192-48665374-645d-45ce-9d9d-ff8b162d41c2.png)
+
 
 &nbsp;
 
 3. Pingue os endereços para testar a conectividade entre as máquinas.
 
-![redes12](https://user-images.githubusercontent.com/103438145/186778194-4d401a23-23fb-4c10-bb14-a20533dc5514.png)
 
 &nbsp;
 
@@ -166,33 +163,31 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 2. Para a instalação do servidor SSH é necessário conexão com a internet, logo alteramos a configuração das VMs no adaptador1 para modo NAT.
 
-![redes13](https://user-images.githubusercontent.com/103438145/186778195-8745b12d-d839-4b9a-adbc-d5c65be0d21b.png)
 
 &nbsp;
 
 3. Comentamos o endereço IP estático e o gateway e ativamos o dhcp, usando o comando ```sudo nano /etc/netplan/01-netcfg.yaml```. Lembre-se de aplicar as alterações com ```sudo netplan apply```.
 
-![redes14](https://user-images.githubusercontent.com/103438145/186778197-21bfa8dd-6ada-478b-9702-a85b4698af74.png)
 
 &nbsp;
 
 4. Digitamos os comandos ```sudo apt update``` e ```sudo apt upgrade -y``` para confirmar a conexão com a internet.
 
 > OBS: O update baixa e o upgrade instala.
-> 
-![redes15](https://user-images.githubusercontent.com/103438145/186778217-0d14957c-ef9f-4ca4-b079-506da2e23e25.png)
+
+![redes11](https://user-images.githubusercontent.com/103438145/186778192-48665374-645d-45ce-9d9d-ff8b162d41c2.png)
 
 &nbsp;
 
 5. A fim de instalar o SSH server digitamos os seguintes comandos ```sudo apt-get install openssh-server``` e ```systemctl status ssh```.
-
-![redes16](https://user-images.githubusercontent.com/103438145/186778222-0e38e6ca-4a8b-4a6e-8f1a-37878fcd3e61.png)
 
 * O SSH permite que os usuários possam realizar o acesso e alterações em servidores remotamente.
 
 &nbsp;
 
 6. Verificamos, em seguida, os status das portas do sistema com o comando ```netstat -an | grep LISTEN```. As conexões TCP na porta 22 devem estar como LISTENING.
+
+![redes12](https://user-images.githubusercontent.com/103438145/186778194-4d401a23-23fb-4c10-bb14-a20533dc5514.png)
 
 * O comando "grep" procura padrões em um arquivo.
 
@@ -205,6 +200,8 @@ sudo ufw allow ssh
 sudo ufw status
 sudo ufw enable
 ```
+
+![redes13](https://user-images.githubusercontent.com/103438145/186778195-8745b12d-d839-4b9a-adbc-d5c65be0d21b.png)
 
 * O "allow" permite as conexões.
 * O "enable" habilita o ufw.
@@ -223,6 +220,8 @@ sudo ufw enable
 
 1. Adicionamos em uma de nossas máquinas virtuais de cada computador um novo adaptador. Para isso, primeiro é necessário clicar em Arquivo e depois em Host Network Manager, em seguida adicionar um novo adaptador em modo Host-only.
 
+![redes14](https://user-images.githubusercontent.com/103438145/186778197-21bfa8dd-6ada-478b-9702-a85b4698af74.png)
+
 &nbsp;
 
 2. Ligamos a VM com o novo adaptador e digitamos o ```ifconfig -a``` para confirmar a existência do adaptador 2, observando a presença de "enp08s”. Logo após, com o comando ```sudo nano /etc/netplan/01-netcfg.yaml``` ativamos o dhcp do segundo adaptador. Lembre-se de aplicar com ```sudo netplan apply```.
@@ -236,6 +235,8 @@ sudo ufw enable
 ### PARTE VI - Configuração dos Nomes associados
 
 1. Abrimos o arquivo /etc/hosts e editamos-o com as denominações de todas as VMs da rede com o comando ```sudo nano /etc/hosts```.
+
+![redes16](https://user-images.githubusercontent.com/103438145/186778222-0e38e6ca-4a8b-4a6e-8f1a-37878fcd3e61.png)
 
 &nbsp;
 
