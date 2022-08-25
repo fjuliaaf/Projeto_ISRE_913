@@ -8,7 +8,9 @@
 - Sistema Operacional: Ubuntu;
 - Processadores: 1;
 - Memória RAM: 512 MB;
+
 &nbsp;
+
 - VirtualBox;
 &nbsp;
 - Switch;
