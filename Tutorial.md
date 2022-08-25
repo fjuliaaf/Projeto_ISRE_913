@@ -2,8 +2,8 @@
 
 #### O seguinte tutorial é dividido em 7 partes, a fim de que seja possível detalhar de maneira pontual as etapas necessárias para construir um ambiente de rede com 8 máquinas virtuais.
 &nbsp;
-- PARTE I - Configuração para instalação das máquinas virtuais
-
+### PARTE I - Configuração para instalação das máquinas virtuais
+<hr>
 &nbsp;
 
 1. Com os terminais abertos, entre com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```).
@@ -41,7 +41,7 @@ Como em nossa exemplificação já tínhamos este arquivo, mas presente em outro
 
 &nbsp;
 
-- PARTE II – Instalação e configuração das máquinas virtuais
+### PARTE II – Instalação e configuração das máquinas virtuais
 
 &nbsp;
 
@@ -69,7 +69,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-- PARTE III - Ambiente de uma rede ponto a ponto física 
+### PARTE III - Ambiente de uma rede ponto a ponto física 
 
 &nbsp;
 
@@ -85,7 +85,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-- PARTE IV - SSH-Server
+### PARTE IV - SSH-Server
 
 &nbsp;
 
@@ -127,7 +127,7 @@ sudo ufw enable
 
 &nbsp;
 
-- PARTE V - Acesso Remoto SSH com Host-Only
+### PARTE V - Acesso Remoto SSH com Host-Only
 
 &nbsp;
 
@@ -143,7 +143,7 @@ sudo ufw enable
 
 &nbsp;
 
-- PARTE VI - Configuração dos Nomes associados
+### PARTE VI - Configuração dos Nomes associados
 
 1. Abra o arquivo /etc/hosts e edite-o com as denominações de todas as VMs da rede com o comando ```sudo nano /etc/hosts```.
 
@@ -153,7 +153,7 @@ sudo ufw enable
 
 &nbsp;
 
-- PARTE VII - Conectando os computadores através de um switch
+### PARTE VII - Conectando os computadores através de um switch
 
 &nbsp;
 
