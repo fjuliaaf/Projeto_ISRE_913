@@ -3,16 +3,17 @@
 #### O seguinte tutorial é dividido em 7 partes, a fim de que seja possível detalhar de maneira pontual as etapas necessárias para construir um ambiente de rede com 8 máquinas virtuais.
 &nbsp;
 
-### Configuração de Hardware das VMs, Softwares e Instrumentos
+### Configuração de Hardware das VMs
 
 - Sistema Operacional: Ubuntu;
 - Processadores: 1;
 - Memória RAM: 512 MB;
 
-&nbsp;
+### Softwares
 
 - VirtualBox;
-&nbsp;
+
+### Instrumentos
 - Switch;
 - 04 cabos de par trançado.
 
