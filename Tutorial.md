@@ -71,8 +71,6 @@ Sudo chmod –R 771 /pasta1
 ```
 ![redes4](https://user-images.githubusercontent.com/103438145/186778091-db28a867-63d0-4a31-91a5-aeee601a2a8f.png)
 
-&nbsp;
-
 ![redes7](https://user-images.githubusercontent.com/103438145/186778128-e9e36367-c825-40e5-8b66-5df4228c4e56.png)
 
 * O comando "chown" permite que possamos alterar o nome do dono de um arquivo.
@@ -175,11 +173,11 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 > OBS: O update baixa e o upgrade instala.
 
-![redes11](https://user-images.githubusercontent.com/103438145/186778192-48665374-645d-45ce-9d9d-ff8b162d41c2.png)
-
 &nbsp;
 
 5. A fim de instalar o SSH server digitamos os seguintes comandos ```sudo apt-get install openssh-server``` e ```systemctl status ssh```.
+
+![redes11](https://user-images.githubusercontent.com/103438145/186778192-48665374-645d-45ce-9d9d-ff8b162d41c2.png)
 
 * O SSH permite que os usuários possam realizar o acesso e alterações em servidores remotamente.
 
