@@ -21,7 +21,7 @@
 
 ### Denominações
 
-- Os endereços IPs das nossas máquinas virtuais foram 193.168.13.65, 193.168.13.66, 193.168.13.67, 193.168.13.68, 193.168.13.69, 193.168.13.70, 193.168.13.71, 193.168.13.72;
+- Os endereços IPs das nossas máquinas virtuais foram 192.168.13.65, 192.168.13.66, 192.168.13.67, 192.168.13.68, 192.168.13.69, 192.168.13.70, 192.168.13.71, 192.168.13.72;
 - Criamos 04 usuários em cada máquina virtual com os nomes "julia", "eduarda", "antony", "beatriz" ou "jfo", "agmm", "bss" e "mebl".
 
 > Outras denominações podem ser visualizadas através da tabela, acessando-a com o comando ```sudo nano /etc/hosts```.
