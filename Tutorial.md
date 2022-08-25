@@ -3,7 +3,7 @@
 #### O seguinte tutorial é dividido em 7 partes, a fim de que seja possível detalhar de maneira pontual as etapas necessárias para construir um ambiente de rede com 8 máquinas virtuais.
 &nbsp;
 ### PARTE I - Configuração para instalação das máquinas virtuais
-<hr>
+<hr height: '0.4'>
 &nbsp;
 
 1. Com os terminais abertos, entre com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```).
