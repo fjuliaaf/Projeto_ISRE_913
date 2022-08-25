@@ -34,6 +34,8 @@
 
 1. Com os terminais abertos, entramos com usuários predefinidos, a partir do comando ```su nome_usuario``` (Ou crie um novo usuário com o comando ```sudo adduser nome_usuario```). 
 
+![redes1 ](https://user-images.githubusercontent.com/103438145/186777862-c83920e9-2d8b-4632-bbac-e179bfd1ebff.png)
+
 * O comando "su" permite que possamos mudar de usuário.
 
 &nbsp;
