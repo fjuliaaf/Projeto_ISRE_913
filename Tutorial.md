@@ -54,6 +54,9 @@ sudo mkdir pasta1/pasta4/pasta5
 sudo mkdir pasta1/pasta4/pasta5/pasta6
 ```
 
+![redes2](https://user-images.githubusercontent.com/103438145/186778062-ebd6d7e9-8227-42fb-9cce-75a669d9af45.png)
+
+
 * O "sudo" é usado para que possamos efetivar comandos como se fosse o superusuário ou outro usuário.
 * O "mkdir" é usado para criar diretórios.
 * O "cd" é usado para mudar o diretório do trabalho.
@@ -68,6 +71,8 @@ Sudo chgrp –R nome_usuario /pasta1
 Sudo chmod –R 771 /pasta1
 ```
 
+![redes3](https://user-images.githubusercontent.com/103438145/186778076-abf96678-ac26-4c18-9ff9-ff7a1a9d4929.png)
+
 * O comando "chown" permite que possamos alterar o nome do dono de um arquivo.
 * O "chgrp" permite que mudemos o nome de um arquivo.
 * O "chmod 771" altera as permissões de um arquivo, de forma a ser possível que o dono possa ler, escrever e executar o arquivo.
@@ -76,6 +81,8 @@ Sudo chmod –R 771 /pasta1
 
 4. Logo após, entre no diretório que criou /pasta1/pasta2/pasta3 e aloque o arquivo ubuntu-server-mini.ova (exportação de máquinas virtuais).
 Como em nossa exemplificação já tínhamos este arquivo, mas presente em outros diretórios, apenas copiamos e transferimos ele para os diretórios que estávamos utilizando, através do comando: ```sudo cp diretorio_arquivo diretorio_localCopiar```.
+
+![redes4](https://user-images.githubusercontent.com/103438145/186778091-db28a867-63d0-4a31-91a5-aeee601a2a8f.png)
 
 * O comando "cp" faz cópia de arquivos.
 
@@ -87,6 +94,8 @@ Como em nossa exemplificação já tínhamos este arquivo, mas presente em outro
 
 1. Nessa ordem, deve-se iniciar a etapa de instalar a extensão do pacote do VirtualBox com o comando ```sudo apt install virtualbox-ext-pack```.
 
+![redes5](https://user-images.githubusercontent.com/103438145/186778099-f55038bd-cd2d-423d-b676-42a8abf7e80f.png)
+
 * O "apt" permite a instalação, atualização e remoção de pacotes.
 
 &nbsp;
@@ -95,11 +104,15 @@ Como em nossa exemplificação já tínhamos este arquivo, mas presente em outro
 
 &nbsp;
 
+![redes6](https://user-images.githubusercontent.com/103438145/186778113-c4453d7a-db58-40ea-8c66-9d6390bb407b.png)
+
 Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-server-mini.ova e armazene sua máquina no diretório /pasta1/pasta4/pasta5/pasta6
 
 &nbsp;
 
 3. Reinicializamos as Vms e configuramos estaticamente o endereço IP. Para isso, instalamos as ferramentas de rede necessárias com o comando ```sudo apt installnet-tools -y```, posteriormente rodamos o comando: ```sudo nano /etc/netplan/01-netcfg.yaml```, desativando o dhcp4 e definindo os endereços IP e do gateway4. Preste atenção com a indentação do texto e, após a finalização das configurações, aplique as alterações com o comando ```sudo netplan apply```.
+
+![redes7](https://user-images.githubusercontent.com/103438145/186778128-e9e36367-c825-40e5-8b66-5df4228c4e56.png)
 
 * Esse último comando tem por função aplicar os arquivos de configuração.
 
@@ -107,9 +120,13 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 4. Desligamos as máquinas virtuais e configuramos nas configurações dessas para que as VMs usassem a mesma rede interna (nomeie essa rede com o nome que preferir - em nossa prática usamos o nome "trabredes").
 
+![redes8](https://user-images.githubusercontent.com/103438145/186778141-545fb93d-a7ed-4ddd-af0b-43a2593d0e23.png)
+
 &nbsp;
 
 5. Por fim, testamos a conexão entre as nossas VMs criadas com o comando “ping” e o endereço IP da máquina que queríamos fazer a conexão. Caso algum erro ocorra, verifique a efetivação dos passos anteriores, tais como definição estática de endereços, desativação do dhcp4, os endereços MACs que precisam ser únicos, entre outros.
+
+![redes9](https://user-images.githubusercontent.com/103438145/186778150-1d6e7045-1d31-412d-a5bd-222e54069b5d.png)
 
 * O comando ping usa o datagrama Echo Request do protocolo ICMP (Protocolo de Mensagens de Controle da Internet) a fim de testar conexão entre máquinas.
 
@@ -121,13 +138,19 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 1. Certifique-se de que os endereços IPs estão configurados corretamente e que os endereços MAC são diferentes, caso não sejam, atribua às maquinas endereços MACs aleatórios através das configurações de cada máquina (lembre-se de desligá-las).
 
+![redes10](https://user-images.githubusercontent.com/103438145/186778189-652bf722-48d3-456b-ad7e-51c6ef6ca798.png)
+
 &nbsp;
 
 2. Em seguida, configuramos as NICs como modo bridge através das configurações das VMs.
 
+![redes11](https://user-images.githubusercontent.com/103438145/186778192-48665374-645d-45ce-9d9d-ff8b162d41c2.png)
+
 &nbsp;
 
 3. Pingue os endereços para testar a conectividade entre as máquinas.
+
+![redes12](https://user-images.githubusercontent.com/103438145/186778194-4d401a23-23fb-4c10-bb14-a20533dc5514.png)
 
 &nbsp;
 
@@ -143,19 +166,27 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 2. Para a instalação do servidor SSH é necessário conexão com a internet, logo alteramos a configuração das VMs no adaptador1 para modo NAT.
 
+![redes13](https://user-images.githubusercontent.com/103438145/186778195-8745b12d-d839-4b9a-adbc-d5c65be0d21b.png)
+
 &nbsp;
 
 3. Comentamos o endereço IP estático e o gateway e ativamos o dhcp, usando o comando ```sudo nano /etc/netplan/01-netcfg.yaml```. Lembre-se de aplicar as alterações com ```sudo netplan apply```.
+
+![redes14](https://user-images.githubusercontent.com/103438145/186778197-21bfa8dd-6ada-478b-9702-a85b4698af74.png)
 
 &nbsp;
 
 4. Digitamos os comandos ```sudo apt update``` e ```sudo apt upgrade -y``` para confirmar a conexão com a internet.
 
 > OBS: O update baixa e o upgrade instala.
+> 
+![redes15](https://user-images.githubusercontent.com/103438145/186778217-0d14957c-ef9f-4ca4-b079-506da2e23e25.png)
 
 &nbsp;
 
 5. A fim de instalar o SSH server digitamos os seguintes comandos ```sudo apt-get install openssh-server``` e ```systemctl status ssh```.
+
+![redes16](https://user-images.githubusercontent.com/103438145/186778222-0e38e6ca-4a8b-4a6e-8f1a-37878fcd3e61.png)
 
 * O SSH permite que os usuários possam realizar o acesso e alterações em servidores remotamente.
 
