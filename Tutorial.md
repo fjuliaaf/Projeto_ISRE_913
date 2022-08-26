@@ -108,7 +108,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-3. Reinicializamos as Vms e configuramos estaticamente o endereço IP. Para isso, instalamos as ferramentas de rede necessárias com o comando ```sudo apt installnet-tools -y```, posteriormente rodamos o comando: ```sudo nano /etc/netplan/01-netcfg.yaml```, desativando o dhcp4 e definindo os endereços IP e do gateway4. Preste atenção com a indentação do texto e, após a finalização das configurações, aplique as alterações com o comando ```sudo netplan apply```.
+3. Reinicializamos as Vms e configuramos estaticamente o endereço IP. Para isso, instalamos as ferramentas de rede necessárias com o comando ```sudo apt installnet-tools -y```, posteriormente rodamos o comando: ```sudo nano /etc/netplan/01-netcfg.yaml```, desativando o dhcp e definindo os endereços IP e do gateway. Preste atenção com a indentação do texto e, após a finalização das configurações, aplique as alterações com o comando ```sudo netplan apply```.
 
 * Esse último comando tem por função aplicar os arquivos de configuração.
 
