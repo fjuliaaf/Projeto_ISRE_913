@@ -330,4 +330,4 @@ sudo ufw enable
 
 &nbsp;
 
-#### Após todos os passos terem sido realizados, e se validados, a nossa rede de computadores estava pronta.
+#### Após todos os passos terem sido realizados, e se validados, a rede de computadores está pronta.
