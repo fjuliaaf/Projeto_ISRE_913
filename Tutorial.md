@@ -1,6 +1,14 @@
 # Tutorial de como criar um ambiente de rede com máquinas virtuais
 
+Instituto Federal de Alagoas
+Infraestrutura e Serviços de Rede
+Turma: 913       Curso: Informática
+Grupo 5 - Júlia Ferreira, Antony Gabriel, Beatriz Santos e Maria Eduarda Lima
+
+&nbsp;
+
 #### O seguinte tutorial é dividido em 7 partes, a fim de que seja possível detalhar de maneira pontual as etapas necessárias para construir um ambiente de rede com 8 máquinas virtuais.
+
 &nbsp;
 
 ### Configuração de Hardware das VMs
@@ -43,7 +51,7 @@
 2. Criamos no root uma pasta com um nome destinado a nossa rede de computadores - trabredes - e, dentro deste diretório, criamos outras pastas com um nível hierárquico, a fim de armazenar organizadamente todos os dados necessários (A quantidade de hierarquizações é facultativa). Esses procedimentos devem ser feitos através dos comandos abaixo:
 
 ```
-Sudo mkdir /pasta1    
+sudo mkdir /pasta1    
 cd /pasta1             
 sudo mkdir /pasta2     
 cd /pasta2
@@ -65,9 +73,9 @@ sudo mkdir pasta1/pasta4/pasta5/pasta6
 3. Em seguida, a fim de alterar as permissões necessárias para o acesso de arquivos e pastas, digitamos os comandos seguintes:
 
 ```
-Sudo chown –R nobody:nome_usuario /pasta1
-Sudo chgrp –R nome_usuario /pasta1
-Sudo chmod –R 771 /pasta1
+sudo chown –R nobody:nome_usuario /pasta1
+sudo chgrp –R nome_usuario /pasta1
+sudo chmod –R 771 /pasta1
 ```
 ![redes4](https://user-images.githubusercontent.com/103438145/186778091-db28a867-63d0-4a31-91a5-aeee601a2a8f.png)
 
