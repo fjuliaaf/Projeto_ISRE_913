@@ -259,8 +259,13 @@ sudo ufw enable
 &nbsp;
 
 * Ping
-![ping1](https://user-images.githubusercontent.com/103438145/186794348-da719839-76d4-4f57-b96b-5211e831d2b4.png)
+
 &nbsp;
+
+![ping1](https://user-images.githubusercontent.com/103438145/186794348-da719839-76d4-4f57-b96b-5211e831d2b4.png)
+
+&nbsp;
+
 ![ping10](https://user-images.githubusercontent.com/103438145/186794370-fc0c538e-72cc-4938-842d-32cefc9f7f59.png)
 &nbsp;
 ![ping9](https://user-images.githubusercontent.com/103438145/186794373-e3b67460-8ba3-43bc-9d71-fef241e640bf.png)
