@@ -330,4 +330,8 @@ sudo ufw enable
 
 &nbsp;
 
+![índice](https://user-images.githubusercontent.com/103438145/186925265-458daf46-239e-4252-88c7-2e1ac6227b72.jpeg)
+
+&nbsp;
+
 #### Após todos os passos terem sido realizados, e se validados, a rede de computadores está pronta.
