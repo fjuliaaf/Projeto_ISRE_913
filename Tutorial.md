@@ -1,8 +1,11 @@
 # Tutorial de como criar um ambiente de rede com máquinas virtuais
 
 Instituto Federal de Alagoas
+<br>
 Infraestrutura e Serviços de Rede
+<br>
 Turma: 913       Curso: Informática
+<br>
 Grupo 5 - Júlia Ferreira, Antony Gabriel, Beatriz Santos e Maria Eduarda Lima
 
 &nbsp;
