@@ -248,6 +248,15 @@ sudo ufw enable
 
 1. Nesta etapa, conectamos por fim todos os computadores através dos switchs e dos cabos de par trançado, testando logo em seguida os pings e ssh de uma das máquinas para as outras e usando os usuários que criamos.
 
+![r2](https://user-images.githubusercontent.com/103438145/186790501-8ed899f1-e39e-40f0-bf19-925c0424ca98.png)
+![r3](https://user-images.githubusercontent.com/103438145/186790667-523311c3-9b4f-40f3-9c8a-8add347a822c.png)
+![r1](https://user-images.githubusercontent.com/103438145/186790685-55f0ee9d-6f98-4e65-b22b-6aba92133fd7.png)
+
+&nbsp;
+
+### Validações - SSH e Ping
+
+
 &nbsp;
 
 #### Após todos os passos terem sido realizados, e se validados, a nossa rede de computadores estava pronta.
