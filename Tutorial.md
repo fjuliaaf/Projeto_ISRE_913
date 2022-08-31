@@ -219,6 +219,8 @@ sudo ufw enable
 
 8. Confirmação dos passos feitos anteriormente. Para conectarmos nossas máquinas remotamente digitamos o comando ```ssh user@ip_remoto``` usando o ip das máquinas que queríamos realizar a conexão e o user que estava sendo usado.
 
+> Lembre-se da configuração da NIC e da conexão dos cabos.
+
 &nbsp;
 
 ### PARTE V - Acesso Remoto SSH com Host-Only
@@ -255,7 +257,7 @@ sudo ufw enable
 
 &nbsp;
 
-1. Nesta etapa, conectamos por fim todos os computadores através dos switchs e dos cabos de par trançado, testando logo em seguida os pings e ssh de uma das máquinas para as outras e usando os usuários que criamos.
+1. Nesta etapa, conectamos por fim todos os computadores através do switch e dos cabos de par trançado, testando logo em seguida os pings e ssh de uma das máquinas para as outras e usando os usuários que criamos.
 
 ![r2](https://user-images.githubusercontent.com/103438145/186790501-8ed899f1-e39e-40f0-bf19-925c0424ca98.png)
 ![r3](https://user-images.githubusercontent.com/103438145/186790667-523311c3-9b4f-40f3-9c8a-8add347a822c.png)
