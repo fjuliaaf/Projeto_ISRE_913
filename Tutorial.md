@@ -303,10 +303,6 @@ sudo ufw enable
 
 &nbsp;
 
-![ping3](https://user-images.githubusercontent.com/103438145/186794395-1ccc33d4-acec-4e49-b3d6-330c49e702f9.png)
-
-&nbsp;
-
 ![ping2](https://user-images.githubusercontent.com/103438145/186794399-d3cffc15-7aaf-442a-be0e-6e64b449a371.png)
 
 &nbsp;
