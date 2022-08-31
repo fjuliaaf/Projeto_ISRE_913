@@ -182,8 +182,6 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 4. Digitamos os comandos ```sudo apt update``` e ```sudo apt upgrade -y``` para confirmar a conexão com a internet.
 
-> OBS: O update baixa e o upgrade instala.
-
 &nbsp;
 
 5. A fim de instalar o SSH server digitamos os seguintes comandos ```sudo apt-get install openssh-server``` e ```systemctl status ssh```.
