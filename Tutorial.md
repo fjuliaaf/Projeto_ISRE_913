@@ -149,7 +149,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-2. Em seguida, configuramos as NICs como modo bridge através das configurações das VMs.
+2. Em seguida, configuramos as NICs como modo bridge através das configurações das VMs e conectamos os cabos entre os computadores.
 
 
 
