@@ -131,7 +131,7 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 &nbsp;
 
-5. Por fim, testamos a conexão entre as nossas VMs criadas com o comando “ping” e o endereço IP da máquina que queríamos fazer a conexão. Caso algum erro ocorra, verifique a efetivação dos passos anteriores, tais como definição estática de endereços, desativação do dhcp4, entre outros.
+5. Por fim, testamos a conexão entre as nossas VMs internas com o comando “ping” e o endereço IP da máquina que queríamos fazer a conexão. Caso algum erro ocorra, verifique a efetivação dos passos anteriores, tais como definição estática de endereços, desativação do dhcp4, entre outros.
 
 ![redes9](https://user-images.githubusercontent.com/103438145/186778150-1d6e7045-1d31-412d-a5bd-222e54069b5d.png)
 
