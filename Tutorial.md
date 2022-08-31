@@ -109,7 +109,7 @@ Como em nossa exemplificação já tínhamos este arquivo, mas presente em outro
 
 &nbsp;
 
-2. Em prosseguimento, deve ser feita a instalação das máquinas virtuais em cada computador. Em nossa exemplificação, construímos uma rede com 8 máquinas virtuais em 4 computadores, sendo 2 máquinas virtuais para cada computador. Para isso, com o VirtualBox aberto clique em “Arquivo” e selecione a opção de importar appliance. Configure sua máquina virtual com as configurações de hardware de sua preferência.
+2. Em prosseguimento, deve ser feita a instalação das máquinas virtuais em cada computador. Em nossa exemplificação, construímos uma rede com 8 máquinas virtuais em 4 computadores, sendo 2 máquinas virtuais para cada computador. Para isso, com o VirtualBox aberto clique em “Arquivo” e selecione a opção de importar appliance. 
 
 &nbsp;
 
