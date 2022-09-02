@@ -144,6 +144,10 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 ![Captura de tela de 2022-09-02 11-09-01](https://user-images.githubusercontent.com/103438145/188168836-b77cab04-068c-4cea-b574-5daec1afa118.png)
 ![Captura de tela de 2022-09-02 11-08-21](https://user-images.githubusercontent.com/103438145/188168847-537f3c8b-dd6a-48b0-a998-9cc73fb26938.png)
+![Captura de tela de 2022-09-02 11-23-32](https://user-images.githubusercontent.com/103438145/188171437-d4381c9f-e69b-420a-a183-e04a34987207.png)
+![Captura de tela de 2022-09-02 11-22-42](https://user-images.githubusercontent.com/103438145/188171442-be8b0d82-c995-4f9d-a148-ca7d75444d53.png)
+![Captura de tela de 2022-09-02 11-25-38](https://user-images.githubusercontent.com/103438145/188171453-bc127186-fd46-4a83-9bf3-e7a64c017bd5.png)
+![Captura de tela de 2022-09-02 11-25-11](https://user-images.githubusercontent.com/103438145/188171446-9cccabc5-d833-49d7-9cdd-4a65bd6aefb4.png)
 
 &nbsp;
 
