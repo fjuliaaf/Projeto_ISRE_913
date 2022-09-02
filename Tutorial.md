@@ -39,6 +39,7 @@ Grupo 5 - Júlia Ferreira, Antony Gabriel, Beatriz Santos e Maria Eduarda Lima
    | rede        | 172.168.13.64   |                                   |                            |               |
    | máscara     | 255.255.255.240 |                                   |                            |               |
    | Gateway     | 192.168.13.65   |                                   |                            |               |
+   | Broadcast   | 192.168.13.81   |                                   |                            |               |
    | VM1-PC1     | 192.168.13.65   | vm01-pc01.grupo5-913.ifalara.net  |      antony.grupo5-913     |    antony     |
    | VM2-PC1     | 192.168.13.66   | vm02-pc01.grupo5-913.ifalara.net  |       agm.grupo5-913       |    agmm       |
    | VM1-PC2     | 192.168.13.67   | vm01-pc02.grupo5-913.ifalara.net  |      julia.grupo5-913      |    julia      |
