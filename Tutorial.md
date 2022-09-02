@@ -293,22 +293,22 @@ sudo ufw enable
 &nbsp;
 
 ![ping1](https://user-images.githubusercontent.com/103438145/186794348-da719839-76d4-4f57-b96b-5211e831d2b4.png)
-> Ping da vm01-pc04 para vm01-pc04 usando IP
+> Ping da vm01-pc04 para vm01-pc04 usuário eduarda
 
 &nbsp;
 
 ![ping10](https://user-images.githubusercontent.com/103438145/186794370-fc0c538e-72cc-4938-842d-32cefc9f7f59.png)
-> Ping da vm01-pc03 para vm01-pc01 usando FQDN
+> Ping da vm01-pc03 para vm01-pc01 usando hostname
 
 &nbsp;
 
 ![ping9](https://user-images.githubusercontent.com/103438145/186794373-e3b67460-8ba3-43bc-9d71-fef241e640bf.png)
-> Ping da vm01-pc02 para vm02-pc02 usando IP
+> Ping da vm01-pc02 para vm02-pc02 usando alias
 
 &nbsp;
 
 ![ping8](https://user-images.githubusercontent.com/103438145/186794377-a6dce1bc-e081-4570-943c-59455dc0620f.png)
-> Ping da vm01-pc02 para vm01-pc01 usando IP
+> Ping da vm01-pc02 para vm01-pc01 usando hostname
 
 &nbsp;
 
