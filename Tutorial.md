@@ -48,7 +48,7 @@ Grupo 5 - Júlia Ferreira, Antony Gabriel, Beatriz Santos e Maria Eduarda Lima
    | VM1-PC4     | 192.168.13.71   | vm01-pc04.grupo5-913.ifalara.net  |     eduarda.grupo5-913     |    eduarda    |
    | VM2-PC4     | 192.168.13.72   | vm02-pc04.grupo5-913.ifalara.net  |       mebl.grupo5-913      |    mebl       |
    ------------------------------------------------------------------------------------------------------------------
-<pre>
+</pre>
 
  &nbsp;
         
