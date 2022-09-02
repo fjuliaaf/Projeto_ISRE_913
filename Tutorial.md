@@ -32,21 +32,23 @@ Grupo 5 - Júlia Ferreira, Antony Gabriel, Beatriz Santos e Maria Eduarda Lima
 
 ### Denominações
 
-------------------------------------------------------------------------------------------------------------------
-|  DESCRICAO  |       IP        |                FQDN               |           HOSTNAME         |    ALIASE     |
-------------------------------------------------------------------------------------------------------------------
-| rede        | 172.168.13.64   |                                   |                            |               |
-| máscara     | 255.255.255.240 |                                   |                            |               |
-| Gateway     | 192.168.13.65   |                                   |                            |               |
-| VM1-PC1     | 192.168.13.65   | vm01-pc01.grupo5-913.ifalara.net  |      antony.grupo5-913     |    antony     |
-| VM2-PC1     | 192.168.13.66   | vm02-pc01.grupo5-913.ifalara.net  |       agm.grupo5-913       |    agmm       |
-| VM1-PC2     | 192.168.13.67   | vm01-pc02.grupo5-913.ifalara.net  |      julia.grupo5-913      |    julia      |
-| VM2-PC2     | 192.168.13.68   | vm02-pc02.grupo5-913.ifalara.net  |      jfo.grupo5-913        |    jfo        |
-| VM1-PC3     | 192.168.13.69   | vm01-pc03.grupo5-913.ifalara.net  |     beatriz.grupo5-913     |    beatriz    |
-| VM2-PC3     | 192.168.13.70   | vm02-pc03.grupo5-913.ifalara.ne   |       bss.grupo5-913       |    bss        |
-| VM1-PC4     | 192.168.13.71   | vm01-pc04.grupo5-913.ifalara.net  |     eduarda.grupo5-913     |    eduarda    |
-| VM2-PC4     | 192.168.13.72   | vm02-pc04.grupo5-913.ifalara.net  |       mebl.grupo5-913      |    mebl       |
-------------------------------------------------------------------------------------------------------------------
+<pre>
+   ------------------------------------------------------------------------------------------------------------------
+   |  DESCRICAO  |       IP        |                FQDN               |           HOSTNAME         |    ALIASE     |
+   ------------------------------------------------------------------------------------------------------------------
+   | rede        | 172.168.13.64   |                                   |                            |               |
+   | máscara     | 255.255.255.240 |                                   |                            |               |
+   | Gateway     | 192.168.13.65   |                                   |                            |               |
+   | VM1-PC1     | 192.168.13.65   | vm01-pc01.grupo5-913.ifalara.net  |      antony.grupo5-913     |    antony     |
+   | VM2-PC1     | 192.168.13.66   | vm02-pc01.grupo5-913.ifalara.net  |       agm.grupo5-913       |    agmm       |
+   | VM1-PC2     | 192.168.13.67   | vm01-pc02.grupo5-913.ifalara.net  |      julia.grupo5-913      |    julia      |
+   | VM2-PC2     | 192.168.13.68   | vm02-pc02.grupo5-913.ifalara.net  |      jfo.grupo5-913        |    jfo        |
+   | VM1-PC3     | 192.168.13.69   | vm01-pc03.grupo5-913.ifalara.net  |     beatriz.grupo5-913     |    beatriz    |
+   | VM2-PC3     | 192.168.13.70   | vm02-pc03.grupo5-913.ifalara.ne   |       bss.grupo5-913       |    bss        |
+   | VM1-PC4     | 192.168.13.71   | vm01-pc04.grupo5-913.ifalara.net  |     eduarda.grupo5-913     |    eduarda    |
+   | VM2-PC4     | 192.168.13.72   | vm02-pc04.grupo5-913.ifalara.net  |       mebl.grupo5-913      |    mebl       |
+   ------------------------------------------------------------------------------------------------------------------
+<pre>
 
  &nbsp;
         
