@@ -142,6 +142,9 @@ Coloque como origem do arquivo o diretório criado /pasta1/pasta2/pasta3/ubunto-
 
 * Esse último comando tem por função aplicar os arquivos de configuração.
 
+![Captura de tela de 2022-09-02 11-09-01](https://user-images.githubusercontent.com/103438145/188168836-b77cab04-068c-4cea-b574-5daec1afa118.png)
+![Captura de tela de 2022-09-02 11-08-21](https://user-images.githubusercontent.com/103438145/188168847-537f3c8b-dd6a-48b0-a998-9cc73fb26938.png)
+
 &nbsp;
 
 4. Desligamos as máquinas virtuais e configuramos nas configurações dessas para que as VMs usassem a mesma rede interna (nomeie essa rede com o nome que preferir - em nossa prática usamos o nome "trabredes").
