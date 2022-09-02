@@ -54,7 +54,7 @@ Grupo 5 - Júlia Ferreira, Antony Gabriel, Beatriz Santos e Maria Eduarda Lima
         
 - Criamos 04 usuários em cada máquina virtual com os nomes "julia", "eduarda", "antony", "beatriz" ou "jfo", "agmm", "bss" e "mebl" com o comando ```sudo nano /etc/hosts```.
 
-![Captura de tela de 2022-09-02 11-18-42](https://user-images.githubusercontent.com/103438145/188171770-a8f0a0de-7a63-4075-aa05-629ffbd33391.png)
+![Captura de tela de 2022-09-02 11-07-24](https://user-images.githubusercontent.com/103438145/188171775-faa57940-5cac-4a57-a2ef-860bb97fcac1.png)
 
 &nbsp;
 
@@ -348,7 +348,7 @@ sudo ufw enable
 
 &nbsp;
 
-![Captura de tela de 2022-09-02 11-07-24](https://user-images.githubusercontent.com/103438145/188171775-faa57940-5cac-4a57-a2ef-860bb97fcac1.png)
+![Captura de tela de 2022-09-02 11-18-42](https://user-images.githubusercontent.com/103438145/188171770-a8f0a0de-7a63-4075-aa05-629ffbd33391.png)
 > SSH da vm01-pc03 para vm02-pc03 usando IP
 
 &nbsp;
