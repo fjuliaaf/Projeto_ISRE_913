@@ -293,38 +293,47 @@ sudo ufw enable
 &nbsp;
 
 ![ping1](https://user-images.githubusercontent.com/103438145/186794348-da719839-76d4-4f57-b96b-5211e831d2b4.png)
+> Ping da vm01-pc04 para vm01-pc04 usando IP
 
 &nbsp;
 
 ![ping10](https://user-images.githubusercontent.com/103438145/186794370-fc0c538e-72cc-4938-842d-32cefc9f7f59.png)
+> Ping da vm01-pc03 para vm01-pc01 usando FQDN
 
 &nbsp;
 
 ![ping9](https://user-images.githubusercontent.com/103438145/186794373-e3b67460-8ba3-43bc-9d71-fef241e640bf.png)
+> Ping da vm01-pc02 para vm02-pc02 usando IP
 
 &nbsp;
 
 ![ping8](https://user-images.githubusercontent.com/103438145/186794377-a6dce1bc-e081-4570-943c-59455dc0620f.png)
+> Ping da vm01-pc02 para vm01-pc01 usando IP
 
 &nbsp;
 
 ![ping7](https://user-images.githubusercontent.com/103438145/186794383-2e854b07-1ab5-47f7-a5fc-fb26aaace48d.png)
+> Ping da vm01-pc02 para vm02-pc02 usando hostname
 
 &nbsp;
 
 ![ping6](https://user-images.githubusercontent.com/103438145/186794387-de26e34c-ac87-4b97-8c48-41725a6daaf4.png)
+> Ping da vm01-pc01 para vm01-pc02 usando IP
 
 &nbsp;
 
 ![ping5](https://user-images.githubusercontent.com/103438145/186794390-e2e37b33-7b72-4d1b-8755-d3097f2b4c1c.png)
+> Ping da vm01-pc01 para vm01-pc04 usando IP
 
 &nbsp;
 
 ![ping4](https://user-images.githubusercontent.com/103438145/186794392-827f2fee-c11d-49cb-b5c1-9b76522dda3e.png)
+> Ping da vm01-pc04 para vm01-pc01 usando IP
 
 &nbsp;
 
 ![ping2](https://user-images.githubusercontent.com/103438145/186794399-d3cffc15-7aaf-442a-be0e-6e64b449a371.png)
+> Ping da vm01-pc01 para vm01-pc01 usando alias
 
 &nbsp;
 
@@ -333,30 +342,38 @@ sudo ufw enable
 &nbsp;
 
 ![ssh6](https://user-images.githubusercontent.com/103438145/186794354-9d50c5e6-084f-4911-8513-c0c513c138a6.png)
+> SSH da vm01-pc02 para vm01-pc04 usando hostname e SSH da vm01-pc02 para vm01-pc04 usando IP
 
 &nbsp;
 
 ![ssh5](https://user-images.githubusercontent.com/103438145/186794356-acd6b639-a534-4ff5-a97a-f36a19e88012.png)
+> SSH da vm01-pc01 para vm01-pc04 usando IP
+
 
 &nbsp;
 
 ![ssh4](https://user-images.githubusercontent.com/103438145/186794357-a531253f-2ebb-40af-ad83-b1a1e9997547.png)
+> SSH da vm01-pc01 para vm01-pc02 usando IP
 
 &nbsp;
 
 ![ssh3](https://user-images.githubusercontent.com/103438145/186794358-d26b4401-4a60-4aaa-9dad-aa9b47316186.png)
+> SSH da vm01-pc04 para vm01-pc01 usando IP
 
 &nbsp;
 
 ![ssh2](https://user-images.githubusercontent.com/103438145/186794363-a6c95faf-fc59-430a-a6bc-7afcfa232519.png)
+> SSH da vm01-pc04 para vm01-pc04 usando IP para o usuário eduarda
 
 &nbsp;
 
 ![ssh1](https://user-images.githubusercontent.com/103438145/186794368-0a2d3de0-2797-4b80-a1bd-1dbc965f05b7.png)
+> SSH da vm01-pc03 para vm01-pc03 usandoIP para o usuário bss
 
 &nbsp;
 
 ![índice](https://user-images.githubusercontent.com/103438145/186925265-458daf46-239e-4252-88c7-2e1ac6227b72.jpeg)
+> SSH da vm01-pc03 para vm01-pc01 usando FQDN
 
 &nbsp;
 
